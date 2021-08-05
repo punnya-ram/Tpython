@@ -1,0 +1,64 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="5">
+            <item index="0" class="java.lang.String" itemvalue="{{cat.name}}" />
+            <item index="1" class="java.lang.String" itemvalue="fa-minus" />
+            <item index="2" class="java.lang.String" itemvalue="fas" />
+            <item index="3" class="java.lang.String" itemvalue="custom_icon" />
+            <item index="4" class="java.lang.String" itemvalue="fa-plus" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="E225" />
+          <option value="E231" />
+          <option value="E711" />
+          <option value="E305" />
+          <option value="E722" />
+          <option value="E111" />
+          <option value="E301" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N801" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="QRCodegenerator.PIL" />
+          <option value="django.conf.static" />
+          <option value="fp.views.self" />
+          <option value="shop.views.HttResponse" />
+          <option value="shop.views.get_objects_or_404" />
+          <option value="shop.views.*" />
+          <option value="django.db.models.fields.related.ForeignKey.slug" />
+          <option value="search_app.urls.urls" />
+          <option value="cart.views.products" />
+          <option value="cart.views.quantity" />
+          <option value="cart.models.Cart.DoesNotExist" />
+          <option value="cart.models.CartItem.DoesNotExist" />
+          <option value="cart.views.objectDoesNotExist" />
+          <option value="cart.views.cart_id" />
+          <option value="cart.views.product_id" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
